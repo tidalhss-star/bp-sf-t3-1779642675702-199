@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>구글 상위노출 대행 현장에서 놓치기 쉬운 포인트를 기록해봤다</title>
+  <link rel="canonical" href="https://tidalhss-star.github.io/bp-sf-t3-1779642675702-199/posts/field_note-002-1o2x0n.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>구글 상위노출 대행 현장에서 놓치기 쉬운 포인트를 기록해봤다</h1>
+    <article>
+      <p>### 제목: 창작한 제목<br>"Cloudflare의 Cache Reserve 실패 현상: 끝없는 고민과 선택"</p>
+<p><IMAGE placement="hero" alt="DevOps Engineer DevOps 엔지니어가 AWS 프리티어 계정과 클라우드 비용을 조사하고 있는 모습"></p>
+<p>아, 진짜... Cloudflare의 cache reserve가 특정 엣지 로케이션에서 최대 47분까지 무효화 지연되는 현상은 어떻게 해결해야 하나요?</p>
+<p>## 키워드 컨텍스트<br>이 글의 배경 비즈니스 키워드는 "구글 상위노출 대행"입니다. 이 글에서는 AWS 프리티어 계정 운영과 클라우드 비용 절감에 대한 갈등을 중심으로 서사를 전개합니다.</p>
+<p>## 구체적 니치 콘텐츠 작성</p>
+<p>### 1) 현상 및 관련 엣지케이스<br>Cloudflare는 인터넷 트래픽의 일부를 레퍼런스 로케이션에서 메모리(cache)에 저장하여 이를 다른 엣지 로케이션으로 전송합니다. 이 과정에서 특정 엣지 로케이션에서 cache가 무효화될 경우, 해당 트래픽은 최대 47분 동안 재전송되지 않습니다.</p>
+<p>### 2) AWS 프리티어 계정 운영 및 문제 발생<br>AWS 프리티어 계정으로 운영하다 한 달 만에 500만원 청구된 트래픽 패턴을 가진 테스트 루프를 실행하고 있었습니다. 이 때 Cloudflare의 cache reserve가 특정 엣지 로케이션에서 최대 47분 동안 무효화되며 재전송되지 않는 현상이 발생했습니다.</p>
+<p>### 3) 문제 원인 분석<br>- **Lightsail CPU 크레딧**: Lightsail은 AWS 서비스 중 하나로, CPU 사용량에 따른 크레딧을 제공합니다. 해당 계정에서 Lightsail이 대량의 CPU를 사용했지만, Cloudflare의 cache reserve 문제가 발생하였습니다.<br>- **비용 절감 필요성**: 테스트 루프에서 클라우드 비용 절감을 위해 AWS 프리티어 계정으로 운영하였으나, 이로 인한 비용 지불이 문제를 야기하였습니다.</p>
+<p>### 4) 선택 기준 및 실패 원인<br>- **선택 기준**: Cloudflare cache reserve 문제와 Lightsail 크레딧 사용량 간의 관계를 확인해야 합니다.<br>- **실패 원인**: 클라우드 비용 절감 목표에 따라 AWS 프리티어 계정으로 운영하였으나, 이를 위한 Lightsail 크레딧 사용이 최대 47분 동안 무효화되는 현상을 초래하였습니다.</p>
+<p>### 5) 해결 방법 및 지침<br>- **Lightsail 크레딧 관리**: Lightsail 크레딧을 적절히 관리하여 최대 사용량 이상을 방지해야 합니다.<br>- **클라우드 비용 절감**: AWS 프리티어 계정 운영 시 클라우드 비용 절감 방법을 찾아보는 것이 중요합니다. 예를 들어, 다른 AWS 서비스나 고유의 조건을 활용하여 비용 효율성을 높이는 방안을 모색해야 합니다.</p>
+<p>결론적으로, Cloudflare의 cache reserve 문제와 Lightsail 크레딧 사용량 간의 관계가 엣지케이스에서 발생한 비용 지불 실패 원인이 되었습니다. AWS 프리티어 계정 운영 시 클라우드 비용 절감과 효율성을 높이는 방법을 고려해야 합니다.</p>
+<p><a href="https://kenjiseo.dothome.co.kr/" target="_blank" rel="noopener noreferrer">마포 코인노래방 방음 시설 비교 가이드</a></p>
+
+    <div class="juice-ref-g2uohg" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>관련 업계 트렌드와 통계는 <a href="https://ghostpersona.dothome.co.kr/">gangseo-doorway</a>에 정리되어 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>
